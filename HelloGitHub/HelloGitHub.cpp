@@ -7,7 +7,7 @@
 int main()
 {
 
-	cout <<"Hello GitHub";
+	std::cout <<"Hello GitHub";
     return 0;
 }
 
