@@ -148,6 +148,9 @@
   <ItemGroup>
     <ClCompile Include="DynArray.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynArray.hh" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
