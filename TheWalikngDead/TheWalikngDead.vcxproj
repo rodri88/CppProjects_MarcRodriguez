@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5947C0F9-EAAC-4258-901E-02F3932450FD}</ProjectGuid>
+    <ProjectGuid>{1A0F2FFE-7572-4A5E-B02F-8486B59FBB02}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>DynArray</RootNamespace>
+    <RootNamespace>TheWalikngDead</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,11 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DynArray.cc" />
-    <ClCompile Include="main.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DynArray.hh" />
+    <ClCompile Include="..\..\..\..\..\Downloads\TheWalkingDead.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

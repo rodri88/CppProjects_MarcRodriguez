@@ -14,7 +14,7 @@ public:
 	~DynArray (void);													// deletes the memory in the Heap
 
 	// assignment operators
-	DynArray& operator= (const DynArray &x);							// copies all the attributes from x to this object
+	DynArray& operator= (const DynArray &x);							// copies all the attributes from x to this object (size, capacity, values)
 
 	// iterator methods
 	int* begin (void) const;											// returns an iterator to the first element
